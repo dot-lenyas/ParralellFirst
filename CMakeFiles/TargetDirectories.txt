@@ -1,0 +1,3 @@
+/home/lenyas/parralel/CMakeFiles/rebuild_cache.dir
+/home/lenyas/parralel/CMakeFiles/edit_cache.dir
+/home/lenyas/parralel/CMakeFiles/integral.dir
