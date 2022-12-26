@@ -4,7 +4,7 @@ project(ParallelProgramming)
 set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_CXX_COMPILER /usr/bin/g++)
-set(GCC_COMPILE_FLAGS "-fopenmp -std=gnu++2a -m64")
+set(GCC_COMPILE_FLAGS "-fopenmp -std=c++20 -m64")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_COMPILE_FLAGS}" )
 #add_executable(Lesson1 lesson-1.cpp)
 #add_executable(Lesson2 lesson-2.cpp)
