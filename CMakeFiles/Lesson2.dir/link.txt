@@ -1,1 +1,1 @@
-/usr/bin/g++-10   -fopenmp -std=gnu++2a -m64   CMakeFiles/Lesson2.dir/lesson-2.cpp.o  -o Lesson2 
+/usr/bin/g++   -fopenmp -std=gnu++2a -m64   CMakeFiles/Lesson2.dir/lesson-2.cpp.o  -o Lesson2 

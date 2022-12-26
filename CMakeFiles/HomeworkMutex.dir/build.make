@@ -60,15 +60,15 @@ include CMakeFiles/HomeworkMutex.dir/flags.make
 CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.o: CMakeFiles/HomeworkMutex.dir/flags.make
 CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.o: homework-mutex.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.o -c /home/lenyas/parralel/homework-mutex.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.o -c /home/lenyas/parralel/homework-mutex.cpp
 
 CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/homework-mutex.cpp > CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/homework-mutex.cpp > CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.i
 
 CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/homework-mutex.cpp -o CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/homework-mutex.cpp -o CMakeFiles/HomeworkMutex.dir/homework-mutex.cpp.s
 
 # Object files for target HomeworkMutex
 HomeworkMutex_OBJECTS = \

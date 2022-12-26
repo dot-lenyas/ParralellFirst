@@ -60,15 +60,15 @@ include CMakeFiles/Average.dir/flags.make
 CMakeFiles/Average.dir/average.cpp.o: CMakeFiles/Average.dir/flags.make
 CMakeFiles/Average.dir/average.cpp.o: average.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Average.dir/average.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Average.dir/average.cpp.o -c /home/lenyas/parralel/average.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Average.dir/average.cpp.o -c /home/lenyas/parralel/average.cpp
 
 CMakeFiles/Average.dir/average.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Average.dir/average.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/average.cpp > CMakeFiles/Average.dir/average.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/average.cpp > CMakeFiles/Average.dir/average.cpp.i
 
 CMakeFiles/Average.dir/average.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Average.dir/average.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/average.cpp -o CMakeFiles/Average.dir/average.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/average.cpp -o CMakeFiles/Average.dir/average.cpp.s
 
 # Object files for target Average
 Average_OBJECTS = \

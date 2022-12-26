@@ -57,44 +57,44 @@ include CMakeFiles/Lab2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab2.dir/flags.make
 
-CMakeFiles/Lab2.dir/lab2/main.cpp.o: CMakeFiles/Lab2.dir/flags.make
-CMakeFiles/Lab2.dir/lab2/main.cpp.o: lab2/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab2.dir/lab2/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/lab2/main.cpp.o -c /home/lenyas/parralel/lab2/main.cpp
+CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o: lab2/randomizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o -c /home/lenyas/parralel/lab2/randomizer.cpp
 
-CMakeFiles/Lab2.dir/lab2/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/lab2/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/lab2/main.cpp > CMakeFiles/Lab2.dir/lab2/main.cpp.i
+CMakeFiles/Lab2.dir/lab2/randomizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/lab2/randomizer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/lab2/randomizer.cpp > CMakeFiles/Lab2.dir/lab2/randomizer.cpp.i
 
-CMakeFiles/Lab2.dir/lab2/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/lab2/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/lab2/main.cpp -o CMakeFiles/Lab2.dir/lab2/main.cpp.s
+CMakeFiles/Lab2.dir/lab2/randomizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/lab2/randomizer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/lab2/randomizer.cpp -o CMakeFiles/Lab2.dir/lab2/randomizer.cpp.s
 
-CMakeFiles/Lab2.dir/lab2/barrier.cpp.o: CMakeFiles/Lab2.dir/flags.make
-CMakeFiles/Lab2.dir/lab2/barrier.cpp.o: lab2/barrier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/lab2/barrier.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/lab2/barrier.cpp.o -c /home/lenyas/parralel/lab2/barrier.cpp
+CMakeFiles/Lab2.dir/helper/barrier.cpp.o: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/helper/barrier.cpp.o: helper/barrier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab2.dir/helper/barrier.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/helper/barrier.cpp.o -c /home/lenyas/parralel/helper/barrier.cpp
 
-CMakeFiles/Lab2.dir/lab2/barrier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/lab2/barrier.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/lab2/barrier.cpp > CMakeFiles/Lab2.dir/lab2/barrier.cpp.i
+CMakeFiles/Lab2.dir/helper/barrier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/helper/barrier.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/helper/barrier.cpp > CMakeFiles/Lab2.dir/helper/barrier.cpp.i
 
-CMakeFiles/Lab2.dir/lab2/barrier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/lab2/barrier.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/lab2/barrier.cpp -o CMakeFiles/Lab2.dir/lab2/barrier.cpp.s
+CMakeFiles/Lab2.dir/helper/barrier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/helper/barrier.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/helper/barrier.cpp -o CMakeFiles/Lab2.dir/helper/barrier.cpp.s
 
-CMakeFiles/Lab2.dir/lab2/lut.cpp.o: CMakeFiles/Lab2.dir/flags.make
-CMakeFiles/Lab2.dir/lab2/lut.cpp.o: lab2/lut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.dir/lab2/lut.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/lab2/lut.cpp.o -c /home/lenyas/parralel/lab2/lut.cpp
+CMakeFiles/Lab2.dir/helper/lut.cpp.o: CMakeFiles/Lab2.dir/flags.make
+CMakeFiles/Lab2.dir/helper/lut.cpp.o: helper/lut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab2.dir/helper/lut.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab2.dir/helper/lut.cpp.o -c /home/lenyas/parralel/helper/lut.cpp
 
-CMakeFiles/Lab2.dir/lab2/lut.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/lab2/lut.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/lab2/lut.cpp > CMakeFiles/Lab2.dir/lab2/lut.cpp.i
+CMakeFiles/Lab2.dir/helper/lut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab2.dir/helper/lut.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/helper/lut.cpp > CMakeFiles/Lab2.dir/helper/lut.cpp.i
 
-CMakeFiles/Lab2.dir/lab2/lut.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/lab2/lut.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/lab2/lut.cpp -o CMakeFiles/Lab2.dir/lab2/lut.cpp.s
+CMakeFiles/Lab2.dir/helper/lut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab2.dir/helper/lut.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/helper/lut.cpp -o CMakeFiles/Lab2.dir/helper/lut.cpp.s
 
 CMakeFiles/Lab2.dir/helper/threads.cpp.o: CMakeFiles/Lab2.dir/flags.make
 CMakeFiles/Lab2.dir/helper/threads.cpp.o: helper/threads.cpp
@@ -111,17 +111,17 @@ CMakeFiles/Lab2.dir/helper/threads.cpp.s: cmake_force
 
 # Object files for target Lab2
 Lab2_OBJECTS = \
-"CMakeFiles/Lab2.dir/lab2/main.cpp.o" \
-"CMakeFiles/Lab2.dir/lab2/barrier.cpp.o" \
-"CMakeFiles/Lab2.dir/lab2/lut.cpp.o" \
+"CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o" \
+"CMakeFiles/Lab2.dir/helper/barrier.cpp.o" \
+"CMakeFiles/Lab2.dir/helper/lut.cpp.o" \
 "CMakeFiles/Lab2.dir/helper/threads.cpp.o"
 
 # External object files for target Lab2
 Lab2_EXTERNAL_OBJECTS =
 
-Lab2: CMakeFiles/Lab2.dir/lab2/main.cpp.o
-Lab2: CMakeFiles/Lab2.dir/lab2/barrier.cpp.o
-Lab2: CMakeFiles/Lab2.dir/lab2/lut.cpp.o
+Lab2: CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o
+Lab2: CMakeFiles/Lab2.dir/helper/barrier.cpp.o
+Lab2: CMakeFiles/Lab2.dir/helper/lut.cpp.o
 Lab2: CMakeFiles/Lab2.dir/helper/threads.cpp.o
 Lab2: CMakeFiles/Lab2.dir/build.make
 Lab2: CMakeFiles/Lab2.dir/link.txt

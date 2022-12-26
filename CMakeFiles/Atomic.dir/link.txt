@@ -1,1 +1,1 @@
-/usr/bin/g++-10   -fopenmp -std=gnu++2a -m64   CMakeFiles/Atomic.dir/atomic.cpp.o  -o Atomic 
+/usr/bin/g++   -fopenmp -std=gnu++2a -m64   CMakeFiles/Atomic.dir/atomic.cpp.o  -o Atomic 

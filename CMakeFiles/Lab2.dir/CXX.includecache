@@ -6,7 +6,43 @@
 
 #IncludeRegexTransform: 
 
+/home/lenyas/parralel/helper/barrier.cpp
+barrier.h
+/home/lenyas/parralel/helper/barrier.h
+
+/home/lenyas/parralel/helper/barrier.h
+mutex
+-
+condition_variable
+-
+
+/home/lenyas/parralel/helper/lut.cpp
+cstdint
+-
+vector
+-
+condition_variable
+-
+lut.h
+/home/lenyas/parralel/helper/lut.h
+
+/home/lenyas/parralel/helper/lut.h
+iostream
+-
+
 /home/lenyas/parralel/helper/partial_sum.h
+
+/home/lenyas/parralel/helper/tester.h
+iostream
+-
+chrono
+-
+omp.h
+-
+thread
+-
+threads.h
+/home/lenyas/parralel/helper/threads.h
 
 /home/lenyas/parralel/helper/threads.cpp
 omp.h
@@ -18,31 +54,11 @@ threads.h
 thread
 -
 
-/home/lenyas/parralel/lab2/barrier.cpp
-barrier.h
-/home/lenyas/parralel/lab2/barrier.h
-
-/home/lenyas/parralel/lab2/barrier.h
-mutex
--
-condition_variable
--
-
-/home/lenyas/parralel/lab2/lut.cpp
-cstdint
--
-vector
--
-condition_variable
--
-lut.h
-/home/lenyas/parralel/lab2/lut.h
-
-/home/lenyas/parralel/lab2/lut.h
+/home/lenyas/parralel/helper/vector.h
 iostream
 -
 
-/home/lenyas/parralel/lab2/main.cpp
+/home/lenyas/parralel/lab2/randomizer.cpp
 cstdint
 -
 iostream
@@ -55,10 +71,14 @@ condition_variable
 -
 thread
 -
-lut.h
-/home/lenyas/parralel/lab2/lut.h
+../helper/lut.h
+/home/lenyas/parralel/helper/lut.h
 ../helper/partial_sum.h
 /home/lenyas/parralel/helper/partial_sum.h
 ../helper/threads.h
 /home/lenyas/parralel/helper/threads.h
+../helper/tester.h
+/home/lenyas/parralel/helper/tester.h
+../helper/vector.h
+/home/lenyas/parralel/helper/vector.h
 

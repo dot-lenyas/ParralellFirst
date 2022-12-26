@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/lenyas/parralel/helper/barrier.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/helper/barrier.cpp.o"
+  "/home/lenyas/parralel/helper/lut.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/helper/lut.cpp.o"
   "/home/lenyas/parralel/helper/threads.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/helper/threads.cpp.o"
-  "/home/lenyas/parralel/lab2/barrier.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/lab2/barrier.cpp.o"
-  "/home/lenyas/parralel/lab2/lut.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/lab2/lut.cpp.o"
-  "/home/lenyas/parralel/lab2/main.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/lab2/main.cpp.o"
+  "/home/lenyas/parralel/lab2/randomizer.cpp" "/home/lenyas/parralel/CMakeFiles/Lab2.dir/lab2/randomizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

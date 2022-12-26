@@ -60,15 +60,15 @@ include CMakeFiles/Fibonacci.dir/flags.make
 CMakeFiles/Fibonacci.dir/fibonacci.cpp.o: CMakeFiles/Fibonacci.dir/flags.make
 CMakeFiles/Fibonacci.dir/fibonacci.cpp.o: fibonacci.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Fibonacci.dir/fibonacci.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fibonacci.dir/fibonacci.cpp.o -c /home/lenyas/parralel/fibonacci.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fibonacci.dir/fibonacci.cpp.o -c /home/lenyas/parralel/fibonacci.cpp
 
 CMakeFiles/Fibonacci.dir/fibonacci.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fibonacci.dir/fibonacci.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/fibonacci.cpp > CMakeFiles/Fibonacci.dir/fibonacci.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/fibonacci.cpp > CMakeFiles/Fibonacci.dir/fibonacci.cpp.i
 
 CMakeFiles/Fibonacci.dir/fibonacci.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fibonacci.dir/fibonacci.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/fibonacci.cpp -o CMakeFiles/Fibonacci.dir/fibonacci.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/fibonacci.cpp -o CMakeFiles/Fibonacci.dir/fibonacci.cpp.s
 
 # Object files for target Fibonacci
 Fibonacci_OBJECTS = \

@@ -60,15 +60,15 @@ include CMakeFiles/Future.dir/flags.make
 CMakeFiles/Future.dir/future.cpp.o: CMakeFiles/Future.dir/flags.make
 CMakeFiles/Future.dir/future.cpp.o: future.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Future.dir/future.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Future.dir/future.cpp.o -c /home/lenyas/parralel/future.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Future.dir/future.cpp.o -c /home/lenyas/parralel/future.cpp
 
 CMakeFiles/Future.dir/future.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Future.dir/future.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/future.cpp > CMakeFiles/Future.dir/future.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/future.cpp > CMakeFiles/Future.dir/future.cpp.i
 
 CMakeFiles/Future.dir/future.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Future.dir/future.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/future.cpp -o CMakeFiles/Future.dir/future.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/future.cpp -o CMakeFiles/Future.dir/future.cpp.s
 
 # Object files for target Future
 Future_OBJECTS = \

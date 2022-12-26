@@ -60,15 +60,15 @@ include CMakeFiles/Atomic.dir/flags.make
 CMakeFiles/Atomic.dir/atomic.cpp.o: CMakeFiles/Atomic.dir/flags.make
 CMakeFiles/Atomic.dir/atomic.cpp.o: atomic.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Atomic.dir/atomic.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Atomic.dir/atomic.cpp.o -c /home/lenyas/parralel/atomic.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Atomic.dir/atomic.cpp.o -c /home/lenyas/parralel/atomic.cpp
 
 CMakeFiles/Atomic.dir/atomic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Atomic.dir/atomic.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/atomic.cpp > CMakeFiles/Atomic.dir/atomic.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/atomic.cpp > CMakeFiles/Atomic.dir/atomic.cpp.i
 
 CMakeFiles/Atomic.dir/atomic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Atomic.dir/atomic.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/atomic.cpp -o CMakeFiles/Atomic.dir/atomic.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/atomic.cpp -o CMakeFiles/Atomic.dir/atomic.cpp.s
 
 # Object files for target Atomic
 Atomic_OBJECTS = \

@@ -1,1 +1,1 @@
-/usr/bin/g++-10   -fopenmp -std=gnu++2a -m64   CMakeFiles/Future.dir/future.cpp.o  -o Future 
+/usr/bin/g++   -fopenmp -std=gnu++2a -m64   CMakeFiles/Future.dir/future.cpp.o  -o Future 

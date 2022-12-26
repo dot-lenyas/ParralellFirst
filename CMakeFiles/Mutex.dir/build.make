@@ -60,15 +60,15 @@ include CMakeFiles/Mutex.dir/flags.make
 CMakeFiles/Mutex.dir/mutex.cpp.o: CMakeFiles/Mutex.dir/flags.make
 CMakeFiles/Mutex.dir/mutex.cpp.o: mutex.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Mutex.dir/mutex.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mutex.dir/mutex.cpp.o -c /home/lenyas/parralel/mutex.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mutex.dir/mutex.cpp.o -c /home/lenyas/parralel/mutex.cpp
 
 CMakeFiles/Mutex.dir/mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mutex.dir/mutex.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/mutex.cpp > CMakeFiles/Mutex.dir/mutex.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/mutex.cpp > CMakeFiles/Mutex.dir/mutex.cpp.i
 
 CMakeFiles/Mutex.dir/mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mutex.dir/mutex.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/mutex.cpp -o CMakeFiles/Mutex.dir/mutex.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/mutex.cpp -o CMakeFiles/Mutex.dir/mutex.cpp.s
 
 # Object files for target Mutex
 Mutex_OBJECTS = \

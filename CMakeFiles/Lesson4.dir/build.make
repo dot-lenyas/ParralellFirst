@@ -60,15 +60,15 @@ include CMakeFiles/Lesson4.dir/flags.make
 CMakeFiles/Lesson4.dir/lesson-4.cpp.o: CMakeFiles/Lesson4.dir/flags.make
 CMakeFiles/Lesson4.dir/lesson-4.cpp.o: lesson-4.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lenyas/parralel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lesson4.dir/lesson-4.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lesson4.dir/lesson-4.cpp.o -c /home/lenyas/parralel/lesson-4.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lesson4.dir/lesson-4.cpp.o -c /home/lenyas/parralel/lesson-4.cpp
 
 CMakeFiles/Lesson4.dir/lesson-4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lesson4.dir/lesson-4.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/lesson-4.cpp > CMakeFiles/Lesson4.dir/lesson-4.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenyas/parralel/lesson-4.cpp > CMakeFiles/Lesson4.dir/lesson-4.cpp.i
 
 CMakeFiles/Lesson4.dir/lesson-4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lesson4.dir/lesson-4.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/lesson-4.cpp -o CMakeFiles/Lesson4.dir/lesson-4.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenyas/parralel/lesson-4.cpp -o CMakeFiles/Lesson4.dir/lesson-4.cpp.s
 
 # Object files for target Lesson4
 Lesson4_OBJECTS = \

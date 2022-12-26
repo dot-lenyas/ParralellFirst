@@ -46,6 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Lab2.dir/DependInfo.cmake"
+  "CMakeFiles/FS.dir/DependInfo.cmake"
   "CMakeFiles/CS.dir/DependInfo.cmake"
   "CMakeFiles/DynamicAverage.dir/DependInfo.cmake"
   )
