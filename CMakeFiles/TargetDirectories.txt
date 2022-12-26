@@ -1,3 +1,5 @@
-/home/lenyas/parralel/CMakeFiles/rebuild_cache.dir
 /home/lenyas/parralel/CMakeFiles/edit_cache.dir
-/home/lenyas/parralel/CMakeFiles/integral.dir
+/home/lenyas/parralel/CMakeFiles/Lab2.dir
+/home/lenyas/parralel/CMakeFiles/rebuild_cache.dir
+/home/lenyas/parralel/CMakeFiles/CS.dir
+/home/lenyas/parralel/CMakeFiles/DynamicAverage.dir

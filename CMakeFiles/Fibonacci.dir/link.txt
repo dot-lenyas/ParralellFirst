@@ -1,0 +1,1 @@
+/usr/bin/g++-10   -fopenmp -std=gnu++2a -m64   CMakeFiles/Fibonacci.dir/fibonacci.cpp.o  -o Fibonacci 

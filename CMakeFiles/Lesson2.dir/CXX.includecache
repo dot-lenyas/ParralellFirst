@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lenyas/parralel/lesson-2.cpp
+chrono
+-
+thread
+-
+vector
+-
+type_traits
+-
+iostream
+-
+omp.h
+-
+

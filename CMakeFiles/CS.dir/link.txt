@@ -1,0 +1,1 @@
+/usr/bin/g++   -fopenmp -std=gnu++2a -m64   CMakeFiles/CS.dir/lab1/cs.cpp.o CMakeFiles/CS.dir/helper/threads.cpp.o  -o CS 

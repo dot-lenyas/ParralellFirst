@@ -1,0 +1,1 @@
+/usr/bin/g++-10   -fopenmp -std=gnu++2a -m64   CMakeFiles/Average.dir/average.cpp.o  -o Average 

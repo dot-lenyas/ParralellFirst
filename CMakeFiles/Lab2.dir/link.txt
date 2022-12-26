@@ -1,0 +1,1 @@
+/usr/bin/g++   -fopenmp -std=gnu++2a -m64   CMakeFiles/Lab2.dir/lab2/main.cpp.o CMakeFiles/Lab2.dir/lab2/barrier.cpp.o CMakeFiles/Lab2.dir/lab2/lut.cpp.o CMakeFiles/Lab2.dir/helper/threads.cpp.o  -o Lab2 

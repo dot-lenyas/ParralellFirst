@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lenyas/parralel/helper/tester.h
+iostream
+-
+chrono
+-
+omp.h
+-
+thread
+-
+threads.h
+/home/lenyas/parralel/helper/threads.h
+
+/home/lenyas/parralel/helper/threads.cpp
+omp.h
+-
+threads.h
+/home/lenyas/parralel/helper/threads.h
+
+/home/lenyas/parralel/helper/threads.h
+thread
+-
+
+/home/lenyas/parralel/helper/vector.h
+iostream
+-
+
+/home/lenyas/parralel/lab1/dynamic_average.cpp
+iostream
+-
+thread
+-
+../helper/vector.h
+/home/lenyas/parralel/helper/vector.h
+../helper/tester.h
+/home/lenyas/parralel/helper/tester.h
+

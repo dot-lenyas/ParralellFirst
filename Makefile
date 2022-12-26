@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/lenyas/parralel
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,71 +111,211 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named integral
+# Target rules for targets named Lab2
 
 # Build rule for target.
-integral: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 integral
-.PHONY : integral
+Lab2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab2
+.PHONY : Lab2
 
 # fast build rule for target.
-integral/fast:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/build
-.PHONY : integral/fast
+Lab2/fast:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/build
+.PHONY : Lab2/fast
 
-source.o: source.cpp.o
+#=============================================================================
+# Target rules for targets named CS
 
-.PHONY : source.o
+# Build rule for target.
+CS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CS
+.PHONY : CS
+
+# fast build rule for target.
+CS/fast:
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/build
+.PHONY : CS/fast
+
+#=============================================================================
+# Target rules for targets named DynamicAverage
+
+# Build rule for target.
+DynamicAverage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DynamicAverage
+.PHONY : DynamicAverage
+
+# fast build rule for target.
+DynamicAverage/fast:
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/build
+.PHONY : DynamicAverage/fast
+
+helper/threads.o: helper/threads.cpp.o
+
+.PHONY : helper/threads.o
 
 # target to build an object file
-source.cpp.o:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/source.cpp.o
-.PHONY : source.cpp.o
+helper/threads.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/helper/threads.cpp.o
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/helper/threads.cpp.o
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/helper/threads.cpp.o
+.PHONY : helper/threads.cpp.o
 
-source.i: source.cpp.i
+helper/threads.i: helper/threads.cpp.i
 
-.PHONY : source.i
+.PHONY : helper/threads.i
 
 # target to preprocess a source file
-source.cpp.i:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/source.cpp.i
-.PHONY : source.cpp.i
+helper/threads.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/helper/threads.cpp.i
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/helper/threads.cpp.i
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/helper/threads.cpp.i
+.PHONY : helper/threads.cpp.i
 
-source.s: source.cpp.s
+helper/threads.s: helper/threads.cpp.s
 
-.PHONY : source.s
+.PHONY : helper/threads.s
 
 # target to generate assembly for a file
-source.cpp.s:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/source.cpp.s
-.PHONY : source.cpp.s
+helper/threads.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/helper/threads.cpp.s
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/helper/threads.cpp.s
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/helper/threads.cpp.s
+.PHONY : helper/threads.cpp.s
 
-thread_num.o: thread_num.cpp.o
+lab1/cs.o: lab1/cs.cpp.o
 
-.PHONY : thread_num.o
+.PHONY : lab1/cs.o
 
 # target to build an object file
-thread_num.cpp.o:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/thread_num.cpp.o
-.PHONY : thread_num.cpp.o
+lab1/cs.cpp.o:
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/lab1/cs.cpp.o
+.PHONY : lab1/cs.cpp.o
 
-thread_num.i: thread_num.cpp.i
+lab1/cs.i: lab1/cs.cpp.i
 
-.PHONY : thread_num.i
+.PHONY : lab1/cs.i
 
 # target to preprocess a source file
-thread_num.cpp.i:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/thread_num.cpp.i
-.PHONY : thread_num.cpp.i
+lab1/cs.cpp.i:
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/lab1/cs.cpp.i
+.PHONY : lab1/cs.cpp.i
 
-thread_num.s: thread_num.cpp.s
+lab1/cs.s: lab1/cs.cpp.s
 
-.PHONY : thread_num.s
+.PHONY : lab1/cs.s
 
 # target to generate assembly for a file
-thread_num.cpp.s:
-	$(MAKE) -f CMakeFiles/integral.dir/build.make CMakeFiles/integral.dir/thread_num.cpp.s
-.PHONY : thread_num.cpp.s
+lab1/cs.cpp.s:
+	$(MAKE) -f CMakeFiles/CS.dir/build.make CMakeFiles/CS.dir/lab1/cs.cpp.s
+.PHONY : lab1/cs.cpp.s
+
+lab1/dynamic_average.o: lab1/dynamic_average.cpp.o
+
+.PHONY : lab1/dynamic_average.o
+
+# target to build an object file
+lab1/dynamic_average.cpp.o:
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/lab1/dynamic_average.cpp.o
+.PHONY : lab1/dynamic_average.cpp.o
+
+lab1/dynamic_average.i: lab1/dynamic_average.cpp.i
+
+.PHONY : lab1/dynamic_average.i
+
+# target to preprocess a source file
+lab1/dynamic_average.cpp.i:
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/lab1/dynamic_average.cpp.i
+.PHONY : lab1/dynamic_average.cpp.i
+
+lab1/dynamic_average.s: lab1/dynamic_average.cpp.s
+
+.PHONY : lab1/dynamic_average.s
+
+# target to generate assembly for a file
+lab1/dynamic_average.cpp.s:
+	$(MAKE) -f CMakeFiles/DynamicAverage.dir/build.make CMakeFiles/DynamicAverage.dir/lab1/dynamic_average.cpp.s
+.PHONY : lab1/dynamic_average.cpp.s
+
+lab2/barrier.o: lab2/barrier.cpp.o
+
+.PHONY : lab2/barrier.o
+
+# target to build an object file
+lab2/barrier.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/barrier.cpp.o
+.PHONY : lab2/barrier.cpp.o
+
+lab2/barrier.i: lab2/barrier.cpp.i
+
+.PHONY : lab2/barrier.i
+
+# target to preprocess a source file
+lab2/barrier.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/barrier.cpp.i
+.PHONY : lab2/barrier.cpp.i
+
+lab2/barrier.s: lab2/barrier.cpp.s
+
+.PHONY : lab2/barrier.s
+
+# target to generate assembly for a file
+lab2/barrier.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/barrier.cpp.s
+.PHONY : lab2/barrier.cpp.s
+
+lab2/lut.o: lab2/lut.cpp.o
+
+.PHONY : lab2/lut.o
+
+# target to build an object file
+lab2/lut.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/lut.cpp.o
+.PHONY : lab2/lut.cpp.o
+
+lab2/lut.i: lab2/lut.cpp.i
+
+.PHONY : lab2/lut.i
+
+# target to preprocess a source file
+lab2/lut.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/lut.cpp.i
+.PHONY : lab2/lut.cpp.i
+
+lab2/lut.s: lab2/lut.cpp.s
+
+.PHONY : lab2/lut.s
+
+# target to generate assembly for a file
+lab2/lut.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/lut.cpp.s
+.PHONY : lab2/lut.cpp.s
+
+lab2/main.o: lab2/main.cpp.o
+
+.PHONY : lab2/main.o
+
+# target to build an object file
+lab2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/main.cpp.o
+.PHONY : lab2/main.cpp.o
+
+lab2/main.i: lab2/main.cpp.i
+
+.PHONY : lab2/main.i
+
+# target to preprocess a source file
+lab2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/main.cpp.i
+.PHONY : lab2/main.cpp.i
+
+lab2/main.s: lab2/main.cpp.s
+
+.PHONY : lab2/main.s
+
+# target to generate assembly for a file
+lab2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Lab2.dir/build.make CMakeFiles/Lab2.dir/lab2/main.cpp.s
+.PHONY : lab2/main.cpp.s
 
 # Help Target
 help:
@@ -183,15 +323,29 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... integral"
-	@echo "... source.o"
-	@echo "... source.i"
-	@echo "... source.s"
-	@echo "... thread_num.o"
-	@echo "... thread_num.i"
-	@echo "... thread_num.s"
+	@echo "... Lab2"
+	@echo "... rebuild_cache"
+	@echo "... CS"
+	@echo "... DynamicAverage"
+	@echo "... helper/threads.o"
+	@echo "... helper/threads.i"
+	@echo "... helper/threads.s"
+	@echo "... lab1/cs.o"
+	@echo "... lab1/cs.i"
+	@echo "... lab1/cs.s"
+	@echo "... lab1/dynamic_average.o"
+	@echo "... lab1/dynamic_average.i"
+	@echo "... lab1/dynamic_average.s"
+	@echo "... lab2/barrier.o"
+	@echo "... lab2/barrier.i"
+	@echo "... lab2/barrier.s"
+	@echo "... lab2/lut.o"
+	@echo "... lab2/lut.i"
+	@echo "... lab2/lut.s"
+	@echo "... lab2/main.o"
+	@echo "... lab2/main.i"
+	@echo "... lab2/main.s"
 .PHONY : help
 
 
