@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lenyas/parralel/lesson-5.cpp
+thread
+-
+vector
+-
+iostream
+-
+omp.h
+-
+mutex
+-
+iomanip
+-
+condition_variable
+-
+atomic
+-
+

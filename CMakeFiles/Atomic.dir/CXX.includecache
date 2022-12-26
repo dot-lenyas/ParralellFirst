@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lenyas/parralel/atomic.cpp
+thread
+-
+vector
+-
+iostream
+-
+omp.h
+-
+mutex
+-
+iomanip
+-
+
